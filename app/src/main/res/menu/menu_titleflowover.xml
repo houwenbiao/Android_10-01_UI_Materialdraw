@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_user"
+        android:icon="@mipmap/user"
+        android:showAsAction="always"
+        android:title="用户"
+        />
+    <item
+        android:id="@+id/item_set"
+        android:icon="@mipmap/set"
+        android:showAsAction="always"
+        android:title="设置"
+
+        />
+    <item
+        android:id="@+id/item_time"
+        android:icon="@mipmap/time"
+        android:showAsAction="ifRoom"
+        android:title="时间"
+        />
+    <item
+        android:id="@+id/item_cotegory"
+        android:icon="@mipmap/cotegory"
+        android:showAsAction="ifRoom"
+        android:title="更多"
+        />
+</menu>
